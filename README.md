@@ -7,11 +7,11 @@ Points to remember:
  - Provide your queries along with the results in a new repository in github ( View the below format ).
 
 
-### Problem Statement
+#### **Problem Statement**
 
-### Explanation (2-3 lines)
+#### **Explanation (2-3 lines)**
 
-### Solution
+### **Solution**
 
 **Result Screenshot**
 
