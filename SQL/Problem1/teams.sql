@@ -38,7 +38,7 @@ CREATE TABLE `teams` (
 --
 
 INSERT INTO `teams` (`id`, `team_id`, `team_name`) VALUES
-(1, 10, 'Leetcode FC'),
+(1, 10, 'FC Barcelona'),
 (2, 20, 'NewYork FC'),
 (3, 30, 'Atlanta FC'),
 (4, 40, 'Chicago FC'),
