@@ -1,5 +1,11 @@
 ## Data Analytics Assessment
 
+Points to remember:
+
+ - Import the data in your database. ( Can use either SQL or CSV to dump the data ).
+ - Provide 2-3 lines of your explanation on the approach of your solution.
+ - Provide your queries along with the results in a new repository in github.
+
 ---
 ### Problem1
 
