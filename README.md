@@ -175,3 +175,59 @@ Eating activity is performed by 3 friends, maximum number of participants, (Jona
 Horse Riding activity is performed by 1 friend, minimum number of participants, (Bob B.)
 
 Singing is performed by 2 friends (Victor J. and Jade W.)
+
+---
+---
+---
+
+### Problem4
+
+**Data**: [Click here](https://github.com/29nikhilgarakapati/data-analytics-assessment/tree/main/SQL/Problem4)
+
+A quiet student is the one who took at least one exam and did not score the high or the low score.
+
+Write an SQL query to report the students (student_id, student_name) being quiet in all exams. Do not return the student who has never taken any exam.
+
+Return the result table ordered by student_id.
+
+> Table: student
+
+| Column Name         | Type    |
+| ------------------- | ------ |
+| student_id          | int     |
+| student_name        | varchar |
+
+student_id is the primary key for this table.
+
+student_name is the name of the student.
+
+> Table: Exam
+
+| Column Name   | Type    |
+| ------------- | --------|
+| exam_id       | int     |
+| student_id    | int     |
+| score         | int     |
+
+(exam_id, student_id) is the primary key for this table.
+
+Each row of this table indicates that the student with student_id had a score points in the exam with id exam_id.
+
+``` The query result format is in the following example.```
+
+
+| student_id  | student_name  |
+| ------------| --------------|
+| 2           | Jade          |
+
+**Explanation**
+For exam 1: Student 1 and 3 hold the lowest and high scores respectively.
+
+For exam 2: Student 1 hold both highest and lowest score.
+
+For exam 3 and 4: Studnet 1 and 4 hold the lowest and high scores respectively.
+Student 2 and 5 have never got the highest or lowest in any of the exams.
+
+Since student 5 is not taking any exam, he is excluded from the result.
+
+So, we only return the information of Student 2.
