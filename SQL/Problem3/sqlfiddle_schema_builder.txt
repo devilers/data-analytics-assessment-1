@@ -1,0 +1,31 @@
+CREATE TABLE `activities` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `activities`
+--
+
+INSERT INTO `activities` (`id`, `name`) VALUES
+(1, 'Eating'),
+(2, 'Singing'),
+(3, 'Horse Riding');
+
+CREATE TABLE `friends` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `activity` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `friends`
+--
+
+INSERT INTO `friends` (`id`, `name`, `activity`) VALUES
+(1, 'Jonathan D.', 'Eating'),
+(2, 'Jade W.', 'Singing'),
+(3, 'Victor J.', 'Singing'),
+(4, 'Elvis Q.', 'Eating'),
+(5, 'Daniel A.', 'Eating'),
+(6, 'Bob B.', 'Horse Riding');

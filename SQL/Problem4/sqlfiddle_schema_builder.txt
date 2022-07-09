@@ -1,0 +1,39 @@
+CREATE TABLE `exams` (
+  `exam_id` int(64) NOT NULL,
+  `student_id` int(64) NOT NULL,
+  `score` int(64) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `exams`
+--
+
+INSERT INTO `exams` (`exam_id`, `student_id`, `score`) VALUES
+(10, 1, 70),
+(10, 1, 80),
+(10, 1, 90),
+(20, 1, 80),
+(30, 1, 70),
+(30, 3, 80),
+(30, 4, 90),
+(40, 1, 60),
+(40, 2, 70),
+(40, 4, 80);
+COMMIT;
+
+CREATE TABLE `students` (
+  `student_id` int(64) NOT NULL,
+  `student_name` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `students`
+--
+
+INSERT INTO `students` (`student_id`, `student_name`) VALUES
+(1, 'Daniel'),
+(2, 'Jade'),
+(3, 'Stella'),
+(4, 'Jonathan'),
+(5, 'Will');
+COMMIT;

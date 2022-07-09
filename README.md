@@ -6,12 +6,16 @@ Points to remember:
  - Provide 2-3 lines of your explanation on the approach of your solution.
  - Provide your queries along with the results in a new repository in github ( View the below format ).
 
+In case you don't have a database setup in your machine, you can try [SQL Fiddle](http://sqlfiddle.com/).
+
+ - Copy the sqlfiddle_schema_builder added for every problem folder and paste it in the SQL Fiddle's schema builder (left hand side) and try your solutions
+ on your right hand side.
 
 #### **Problem Statement**
 
 #### **Explanation (2-3 lines)**
 
-### **Solution**
+#### **Solution**
 
 **Result Screenshot**
 
