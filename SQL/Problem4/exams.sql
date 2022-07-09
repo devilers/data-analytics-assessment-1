@@ -39,8 +39,8 @@ CREATE TABLE `exams` (
 
 INSERT INTO `exams` (`exam_id`, `student_id`, `score`) VALUES
 (10, 1, 70),
-(10, 1, 80),
-(10, 1, 90),
+(10, 2, 80),
+(10, 3, 90),
 (20, 1, 80),
 (30, 1, 70),
 (30, 3, 80),
