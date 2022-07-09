@@ -9,7 +9,7 @@ Points to remember:
 In case you don't have a database setup in your machine, you can try [SQL Fiddle](http://sqlfiddle.com/).
 
  - Copy the sqlfiddle_schema_builder added for every problem folder and paste it in the SQL Fiddle's schema builder (left hand side) and try your solutions
- on your right hand side.
+ on your right hand side. ( MySQL 5.6)
 
 #### **Problem Statement**
 
